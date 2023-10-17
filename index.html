@@ -71,10 +71,16 @@
             </div>
 
             <div class="page" id="page 2">
-                <h1> What property type(s) <br> are you considering? * </h1>
+                <div class="divide">
+                <div class="left-child">
+                    <h1> What property type(s) <br> are you considering? * </h1>
                 <h4>   You may select more than 1 option
                        *Required question</h4>
-                    <input type="checkbox" id="house1" name="Type1" value="Condominium">
+                       <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right-child">
+                    <div class="input">
+                        <input type="checkbox" id="house1" name="Type1" value="Condominium">
                        <label for="house1">Condominium</label>
                        <input type="checkbox" id="house2" name="Type2" value="Apartment">
                        <label for="house2">Apartment</label>
@@ -84,26 +90,28 @@
                       <label for="house4">Walk-up</label>
                       <input type="checkbox" id="house5" name="Type5" value="Cluster">
                       <label for="house5">Cluster</label>
-                      <div class="left">
-                        <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                        </div>
-                        <div class="right">
+                    </div>
                         <button type="button" onclick="nextPage()"><b>Next</b></button>
                         </div>
             </div>
+        </div>
 
 
              <div class="page" id="page 3">
+                <div class="divide">
+                    <div class="left-child">
                 <h1>Which rental type are <br> you looking for? *</h1>
                 <h4>*Required question</h4>
+                <button type="button" onclick="prevPage()"><b> Previous </b></button>
+            </div>
+            <div class="right-child">
+                <div class="input">
                 <button type="button" onclick="Selection">Room Rental</button>
                 <button type="button" onclick="Selection">Whole Apartment Rental</button>
-                <div class="left">
-                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                    </div>
-                    <div class="right">
+                </div>
                     <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
+             </div>
              </div>
               
 
