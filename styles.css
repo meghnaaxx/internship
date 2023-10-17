@@ -104,6 +104,12 @@ button {
 
 }
 
+.dropdown.active::before{
+    top:22px;
+    transform:rotate(-225deg);
+}
+
+
 .dropdown input{
     position: absolute;
     top:0;
@@ -115,6 +121,11 @@ button {
     outline-color:  #f65427;
     box-shadow:0 5px 20px rgba(184, 181, 181, 0.11);
 
+}
+
+.options.active{
+
+    display: block;
 }
 
 .options{

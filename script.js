@@ -2,7 +2,7 @@ let currentPage = 1;
 const totalQuestions = 13; 
 function move() {
     var elem = document.getElementById("myBar");
-    var width = (currentPage - 1) * (100 / totalQuestions); // Calculate the progress based on the current question
+    var width = (currentPage - 2) * (100 / totalQuestions); // Calculate the progress based on the current question
     var id = setInterval(frame, 10);
 
     function frame() {
