@@ -96,7 +96,7 @@ color: rgb(103, 102, 102);
 }
 .left-child>h4{
     position: absolute;
-    top: 18%;
+    top: 25%;
     left: 15%;
 }
 .right-child>.input{
