@@ -1,24 +1,24 @@
 let currentPage = 1;
-
+const totalQuestions = 13; 
 function move() {
     var elem = document.getElementById("myBar");
-    var width = 0;
+    var width = (currentPage - 1) * (100 / totalQuestions); // Calculate the progress based on the current question
     var id = setInterval(frame, 10);
 
     function frame() {
-        if (width >= 100) {
+        if (width >= currentPage * (100 / totalQuestions)) {
             clearInterval(id);
-        } else {
+        } else if (width < currentPage * (100 / totalQuestions)) {
             width++;
             elem.style.width = width + '%';
-            elem.innerHTML = width + '%';
-        }
+            }
     }
 }
 function showPage(pageNumber) {
     const pages = document.querySelectorAll('.page');
     pages.forEach(page => page.classList.remove('active'));
     pages[pageNumber - 1].classList.add('active');
+    move();
 }
 
 function nextPage() {
