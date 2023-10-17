@@ -31,32 +31,36 @@
                 <h4> *Required question </h4>
                 <button type="button" onclick="Selection">HDB</button>
                 <button type="button" onclick="Selection">Condo</button>
-                <div class="right">
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
-                    </div>
+                <button type="button" onclick="nextPage()"><b>Next</b></button>
+            
              
             </div>
             <div class="page" id="page 1">
-                <h1>Town(s) you want to <br> move to:*</h1>
+                <div class="divide">
+                <div class="left-child">
+                    <h1>Town(s) you want to <br> move to:*</h1>
                 <h4>You may select up to 3 option <br>
                     *Required question </h4>
-                 <div class="dropdown">  
-                    <input type="text" class="textbox" placeholder="Type or Select an Option">                 
-                   <div class="options show">
-                     <div onclick="show('delhi')">delhi</div>
-                     <div onclick="show('karnataka')">karnataka</div>
-                     <div onclick="show('bangalore')">bangalore</div>
-                     <div onclick="show('tamil nadu')">tamil nadu</div>
-                     <div onclick="show('bangladesh')">bangladesh</div>
-                     <div onclick="show('afghanistan')">afghanistan</div>
-                  </div>
-               </div>
-               <div class="left">
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
                 </div>
-                <div class="right">
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="right-child">
+                    <div class="input">
+                    <div class="dropdown">  
+                        <input type="text" class="textbox" placeholder="Type or Select an Option">                 
+                       <div class="options show">
+                         <div onclick="show('delhi')">delhi</div>
+                         <div onclick="show('karnataka')">karnataka</div>
+                         <div onclick="show('bangalore')">bangalore</div>
+                         <div onclick="show('tamil nadu')">tamil nadu</div>
+                         <div onclick="show('bangladesh')">bangladesh</div>
+                         <div onclick="show('afghanistan')">afghanistan</div>
+                    </div>
+                   </div>
                 </div>
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    
+                </div>
+            </div>
             </div>
 
             <div class="page" id="page 2">
