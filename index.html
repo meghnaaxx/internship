@@ -29,14 +29,18 @@
             <div class="page" id="page 0">
                 <div class="divide">
                 <div class="left-child">
-                  <h1><br>Which type of property <br> are you looking for? * </br> </p></h1>
-                  <h4> *Required question </h4>
-                  </div>
-                  <div class="right-child">
-                  <button type="button" onclick="Selection">HDB</button>
-                  <button type="button" onclick="Selection">Condo</button>
-                   <button type="button" onclick="nextPage()"><b>Next</b></button>
-                  </div>
+                    <h1><br>Which type of property <br> are you looking for? * </br> </p></h1>
+                <h4> *Required question </h4>
+            </div>
+            <div class="right-child">
+                <div class="input">
+                <button type="button" onclick="Selection">HDB</button>
+                <button type="button" onclick="Selection">Condo</button>
+            </div>
+                <button type="button" onclick="nextPage()"><b>Next</b></button>
+            </div>
+            </div>
+             
             </div>
             <div class="page" id="page 1">
                 <div class="divide">
@@ -67,15 +71,9 @@
             </div>
 
             <div class="page" id="page 2">
-                <div class="divide"> 
-                    <div class="left-child"> 
                 <h1> What property type(s) <br> are you considering? * </h1>
                 <h4>   You may select more than 1 option
                        *Required question</h4>
-                       <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                    </div>
-
-                    <div class="right-child">
                     <input type="checkbox" id="house1" name="Type1" value="Condominium">
                        <label for="house1">Condominium</label>
                        <input type="checkbox" id="house2" name="Type2" value="Apartment">
@@ -85,109 +83,98 @@
                       <input type="checkbox" id="house4" name="Type4" value="Walk-up">
                       <label for="house4">Walk-up</label>
                       <input type="checkbox" id="house5" name="Type5" value="Cluster">
-                      <label for="house5">Cluster</label>                       
+                      <label for="house5">Cluster</label>
+                      <div class="left">
+                        <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                        </div>
+                        <div class="right">
                         <button type="button" onclick="nextPage()"><b>Next</b></button>
-
-                          </div>
                         </div>
             </div>
 
 
              <div class="page" id="page 3">
-                <div class="divide">
-                    <div class="left-child">
                 <h1>Which rental type are <br> you looking for? *</h1>
                 <h4>*Required question</h4>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                   <div class="right-child">
                 <button type="button" onclick="Selection">Room Rental</button>
                 <button type="button" onclick="Selection">Whole Apartment Rental</button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
-                  <div>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
              </div>
               
 
             <div class="page" id= "page 4">
-                 <div class="divide">
-                    <div class="left-child">
                 <h1>Please specify the number <br> of rooms required:*</h1>
                 <h4>*Required question</h4>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                    </div>
-                <div class="right-child">
                 <button type="button" onclick="Selection"> 1 Room </button>
                 <button type="button" onclick="Selection"> 2 Rooms</button>
                 <button type="button" onclick="Selection"> 3 Rooms</button>
                 <button type="button" onclick="Selection"> 4+ Rooms</button>
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
             </div>
 
 
             <div class="page" id= "page 5">
-                <div class="divide">
-                 <div class="left-child">
                 <h1>How long do you plan to <br> rent the place?*</h1>
                 <h4>*Required question</h4>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                 </div>
-                 <div class="right-child">
                 <button type="button" onclick="Selection"> 6 months </button>
                 <button type="button" onclick="Selection"> 1 year   </button>
                 <button type="button" onclick="Selection"> 1-2 years</button>
                 <button type="button" onclick="Selection"> 2+ years </button>
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
             </div>
 
             <div class="page" id= "page 6">
-                <div class="divide">
-                    <div class="left-child">
                 <h1>What is your total budget <br> per month?*</h1>
                 <h4>*Required question</h4>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                    </div>
-                    <div class="right-child">
                 <input type="text" class="inputmoney" placeholder="₹">
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
             </div>
 
             <div class="page" id= "page 7">
-                <div class="divide">
-                    <div class="left-child">
                 <h1>When do you wish <br> to move in?*</h1>
                 <h4>*Required question</h4>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                    </div>
-                <div class="right-child">
                 <button type="button" onclick="Selection"> As soon as possible </button>
                 <button type="button" onclick="Selection"> Within 3 months    </button>
                 <button type="button" onclick="Selection"> Within the next 6 months</button>
                 <button type="button" onclick="Selection"> Between 6-12 months </button>
                 <button type="button" onclick="Selection"> I have no specific Timeline </button>
-                
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
                     <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
-
-                </div>
-                    
             </div>
 
             <div class="page" id= "page 8">
-                <div class="divide">
-                    <div class="left-child">
                 <h1>Please indicate if you <br> have  any other requirements <br> below:</h1>
                 <h4>Optional Question</h4>
-                    </div>
-                    <div class="right-child">
                 <input type="text" class="inputrqrmnt" placeholder="Requirements">
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
             </div>
 
