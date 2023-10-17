@@ -30,7 +30,7 @@ color: rgb(103, 102, 102);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 520;
     color: rgb(71, 69, 69);
-    height:13vh;
+    height:15vh;
     width:100%;
     position: relative;
     display: flex;
@@ -61,7 +61,7 @@ color: rgb(103, 102, 102);
 
 .progress-bar {
     width: 0;
-    height: 10px;
+    height: 7.5px;
     background-color: #f0760b;
     text-align: center;
     line-height: 10px;
@@ -95,6 +95,9 @@ button {
     letter-spacing: 0.01em;
     box-shadow: 0 0 8px ;
 
+
+
+
 }
 .textbox{
   font-size: medium;
@@ -113,13 +116,13 @@ button {
 .dropdown::before{
  content: '';
  position:absolute;
- width:8px;
- height: 8px;
+ width:7px;
+ height: 7px;
  border: 2px solid black;
  right:10px;
  top:20px;
  z-index:10000;
- border-top:2px solid #fff;
+ border-top:2px solid #ffffff;
  border-right:2px solid #fff;
  transform: rotate(-45deg);
  transition:0.5s;
@@ -155,8 +158,8 @@ button {
   position: absolute;
   top:70px;
   width:100%;
-  background:rgb(241, 241, 241);
-  box-shadow: 0 10px 10px rgba(254, 250, 250, 0.5);
+  background:rgb(255, 255, 255);
+  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.913);
   border-radius: 5px;
   overflow:hidden;
 
@@ -164,7 +167,7 @@ button {
 
 .dropdown .options div{
 
-    padding: 12px 20px;
+    padding: 12px 12px;
     cursor:pointer;
     font-size:1em;
 }
@@ -183,16 +186,115 @@ button {
 
 
 
+
 .form-container {
     background-color: white;
     width: 68vw;
     height: 100vh;
 }
 
+
+.container-input{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap:30px;
+}
+
+.inputbox{ 
+    position:relative;
+    width:250px;
+
+}
+
+.inputbox input{
+    width: 100%;
+    padding:10px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1em;
+}
+
+.inputbox span{
+    position: absolute;
+    left:0;
+    padding:10px;
+    pointer-events: none;
+    font-size: 1em;
+    color:rgba(66, 64, 64, 0.852);
+    text-transform: none;
+    transition: 0.5s;
+}
+
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span
+{
+color:#3c3b3be1;
+transform: translateX(10px) translateY(-7px);
+font-size: 1em;
+padding:0 10px;
+background-color: white;
+border-left: 1px solid #f35023;
+border-right: 1px solid #f35023;
+}
+
+
+.left{
+    margin-top:160px;
+    margin-left:10px;
+    margin-right: 0%;
+}
+
+.right{
+    margin-left:780px;
+    margin-bottom:200px
+}
+
+
+
+
 .page {
+    
     display: none;
 }
 
 .page.active {
     display: block;
+}
+
+.inputrqrmnt{
+    width: 32%;
+    height:8.5vh;
+    padding:10px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1em;
+    color:#3c3b3be1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    
+
+}
+
+.inputmoney{
+    width: 32%;
+    height:8.5vh;
+    padding:10px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1em;
+    color:#3c3b3be1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    
 }

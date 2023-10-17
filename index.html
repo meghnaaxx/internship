@@ -31,7 +31,10 @@
                 <h4> *Required question </h4>
                 <button type="button" onclick="Selection">HDB</button>
                 <button type="button" onclick="Selection">Condo</button>
-                <button type="button" onclick="nextPage()">Next</button>
+                <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
+             
             </div>
             <div class="page" id="page 1">
                 <h1>Town(s) you want to <br> move to:*</h1>
@@ -48,8 +51,12 @@
                      <div onclick="show('afghanistan')">afghanistan</div>
                   </div>
                </div>
+               <div class="left">
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                </div>
+                <div class="right">
                 <button type="button" onclick="nextPage()"><b>Next</b></button>
+                </div>
             </div>
 
             <div class="page" id="page 2">
@@ -60,14 +67,18 @@
                        <label for="house1">Condominium</label>
                        <input type="checkbox" id="house2" name="Type2" value="Apartment">
                        <label for="house2">Apartment</label>
-                       <input type="checkbox" id="house3" name="Type3" value="Executive Condominium">
+                       <input type="checkbox"  id="house3" name="Type3" value="Executive Condominium">
                        <label for="house3">Executive Condominium</label>
                       <input type="checkbox" id="house4" name="Type4" value="Walk-up">
                       <label for="house4">Walk-up</label>
                       <input type="checkbox" id="house5" name="Type5" value="Cluster">
                       <label for="house5">Cluster</label>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                      <div class="left">
+                        <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                        </div>
+                        <div class="right">
+                        <button type="button" onclick="nextPage()"><b>Next</b></button>
+                        </div>
             </div>
 
 
@@ -76,8 +87,12 @@
                 <h4>*Required question</h4>
                 <button type="button" onclick="Selection">Room Rental</button>
                 <button type="button" onclick="Selection">Whole Apartment Rental</button>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
              </div>
               
 
@@ -88,8 +103,12 @@
                 <button type="button" onclick="Selection"> 2 Rooms</button>
                 <button type="button" onclick="Selection"> 3 Rooms</button>
                 <button type="button" onclick="Selection"> 4+ Rooms</button>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
             </div>
 
 
@@ -100,16 +119,24 @@
                 <button type="button" onclick="Selection"> 1 year   </button>
                 <button type="button" onclick="Selection"> 1-2 years</button>
                 <button type="button" onclick="Selection"> 2+ years </button>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
             </div>
 
             <div class="page" id= "page 6">
                 <h1>What is your total budget <br> per month?*</h1>
                 <h4>*Required question</h4>
-                <input type="text" placeholder="₹">
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <input type="text" class="inputmoney" placeholder="₹">
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
             </div>
 
             <div class="page" id= "page 7">
@@ -120,16 +147,24 @@
                 <button type="button" onclick="Selection"> Within the next 6 months</button>
                 <button type="button" onclick="Selection"> Between 6-12 months </button>
                 <button type="button" onclick="Selection"> I have no specific Timeline </button>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
             </div>
 
             <div class="page" id= "page 8">
                 <h1>Please indicate if you <br> have  any other requirements <br> below:</h1>
                 <h4>Optional Question</h4>
-                <input type="text" placeholder="Requirements">
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <input type="text" class="inputrqrmnt" placeholder="Requirements">
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
             </div>
 
             <div class="page" id= "page 9">
@@ -140,8 +175,12 @@
                 <button type="button" onclick="Selection"> 3 </button>
                 <button type="button" onclick="Selection"> 4 </button>
                 <button type="button" onclick="Selection"> 5+ </button>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
             </div>
 
             <div class="page" id= "page 10">
@@ -150,8 +189,12 @@
                 <button type="button" onclick="Selection"> Male </button>
                 <button type="button" onclick="Selection"> Female </button>
                 <button type="button" onclick="Selection"> Mix of Both Genders </button>
+                <div class="left">
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                </div>
+                <div class="right">
                 <button type="button" onclick="nextPage()"><b>Next</b></button>
+                </div>
             </div>
 
 
@@ -160,8 +203,8 @@
                 <h4>You may select up to 6 options 
                     *Required question</h4>
                     <div class="dropdown">  
-                        <input type="text" class="textbox" placeholder="Type or Select an Option">                 
-                       <div class="options">
+                        <input type="text" class="textbox" placeholder= "Type or Select an Option">                 
+                       <div class="options show">
                          <div onclick="show('delhi')">delhi</div>
                          <div onclick="show('karnataka')">karnataka</div>
                          <div onclick="show('bangalore')">bangalore</div>
@@ -170,8 +213,12 @@
                          <div onclick="show('afghanistan')">afghanistan</div>
                       </div>
                    </div>
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="button" onclick="nextPage()"><b>Next</b></button>
+                   <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
             </div>
 
             <div class="page" id= "page 12">
@@ -188,8 +235,12 @@
                     <label for="pass4">Dependent Pass</label>
                     <input type="checkbox" id="pass5" name="propertyType5" value="None of the Above">
                     <label for="pass5">None of the Above</label> </li>
-                     <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                     <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    <div class="left">
+                        <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                        </div>
+                        <div class="right">
+                        <button type="button" onclick="nextPage()"><b>Next</b></button>
+                        </div>
             </div>
 
 
@@ -197,11 +248,27 @@
             <div class="page" id="page 13">
                 <h1><p>Just one step away to get your <br> preferences matched!</p></h1>
                 <h4>Drop us your contact details and we will keep you <br> updated via Whatsapp on any listings<br> that match your preferences!</h4>
-                <input type="text" placeholder="Name*">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="No.">
-                <button type="button" onclick="prevPage()"><b> Previous </b></button>
-                <button type="submit"><b>Submit</b></button>
+               <div class="container-input">  
+                   <div class="inputbox">
+                      <input type="text" recquired="recquired">
+                      <span>Name</span>
+                  </div>
+                 <div class="inputbox">   
+                    <input type="text"  recquired="recquired">
+                    <span>Email ID</span>
+                 </div>
+                 <div class="inputbox">
+                     <input type="text" recquired="recquired">
+                     <span>Phone No.</span>
+                 </div>
+                 <div class="left">
+                    <button type="button" onclick="prevPage()"><b> Previous </b></button>
+                    </div>
+                    <div class="right">
+                        <button type="submit"><b>Submit</b></button>
+                    </div>
+                </div> 
+              </div>   
             </div>
         </form>
     </div>
