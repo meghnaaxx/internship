@@ -94,6 +94,11 @@ color: rgb(103, 102, 102);
     top: 5%;
     left: 15%;
 }
+@media screen and (max-width: 900px) {
+    .left-child>h1 {
+        font-size: 20px; /* Adjust this to your desired font size for tablets */
+    }
+}
 .left-child>h4{
     position: absolute;
     top: 25%;
