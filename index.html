@@ -39,7 +39,7 @@
                     *Required question </h4>
                  <div class="dropdown">  
                     <input type="text" class="textbox" placeholder="Type or Select an Option">                 
-                   <div class="options">
+                   <div class="options show">
                      <div onclick="show('delhi')">delhi</div>
                      <div onclick="show('karnataka')">karnataka</div>
                      <div onclick="show('bangalore')">bangalore</div>
@@ -212,8 +212,10 @@
 }
  
 let dropdown= document.querySelector('.dropdown');
+let options= document.querySelector('.options');
     dropdown.onclick= function(){
         dropdown.classList.toggle('active');
+        options.classList.toggle('show');
     }
     </script>
 
