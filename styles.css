@@ -1,4 +1,5 @@
 body {
+    display: flex;
     background-color: rgb(223, 221, 221);
     font-family: Arial, sans-serif;
     display: flex;
@@ -15,11 +16,11 @@ font-family: Arial, Helvetica, sans-serif;
 color: rgb(59, 59, 59)
 }
 
-.page >h4{
+.page > h4{
+font-weight: 200;
 padding: 0%;
 margin-left :100px;
 font-family:Arial, Helvetica, sans-serif ;
-font-weight: 200;
 color: rgb(103, 102, 102);
 }
 
@@ -76,6 +77,8 @@ color: rgb(103, 102, 102);
     float: left; /* Use float or inline-block to position the children side by side */
     box-sizing: border-box;
     position: relative;
+    margin-right: 27px;
+    margin-left: 20px;
 }
 
 .left-child>button {
@@ -100,6 +103,7 @@ color: rgb(103, 102, 102);
     }
 }
 .left-child>h4{
+    font-weight: 200;
     position: absolute;
     top: 25%;
     left: 15%;
@@ -158,6 +162,146 @@ color: rgb(103, 102, 102);
     letter-spacing: 0.01em;
     box-shadow: 0 0 8px ;
 }
+ 
+.input{
+display: flex;
+flex-direction: column;
+
+}
+
+.House-input {
+    
+    width: 130%;
+    height:11vh;
+    padding:10px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1.1em;
+    color:#292929e1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    margin-bottom:18px;
+    
+}
+
+
+.House-input:hover{
+    background-color: rgba(225, 114, 23, 0.077);
+}
+
+
+.rental-input{
+    width: 130%;
+    height:11vh;
+    padding:10px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1.1em;
+    color:#292929e1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    margin-bottom:18px;
+}
+
+.rental-input:hover{
+
+    background-color: rgba(225, 114, 23, 0.077);
+}
+
+.room-input{
+    width: 65%;
+    height:9vh;
+    padding:8px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1.1em;
+    color:#292929e1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    margin-bottom:14px;
+}
+
+.room-input:hover{
+    background-color: rgba(225, 114, 23, 0.077);
+}
+
+.year-input{
+    width: 65%;
+    height:9vh;
+    padding:8px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1.1em;
+    color:#292929e1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    margin-bottom:14px;
+
+}
+
+.year-input:hover{
+    background-color: rgba(225, 114, 23, 0.077);
+}
+
+.gender-input{
+    width: 65%;
+    height:9vh;
+    padding:8px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1.1em;
+    color:#292929e1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    margin-bottom:14px;
+}
+
+.gender-input:hover{
+    background-color: rgba(225, 114, 23, 0.077);
+}
+ 
+.occupant-input{
+    width: 65%;
+    height:9vh;
+    padding:8px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1.1em;
+    color:#292929e1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    margin-bottom:14px;
+}
+
+.occupant-input:hover{
+    background-color: rgba(225, 114, 23, 0.077);
+}
+
+.time-input{
+    width: 65%;
+    height:9vh;
+    padding:8px;
+    border: 2px solid rgba(57, 56, 56, 0.863);
+    border-radius:5px;
+    outline-color: #f65427;
+    font-size: 1.1em;
+    color:#292929e1;
+    transform: translateX(10px) translateY(-7px);
+    box-sizing: border-box;
+    margin-bottom:14px;
+}
+
+.time-input:hover{
+    background-color: rgba(225, 114, 23, 0.077);
+}
+
+
 .textbox{
   font-size: medium;
   width: 20vw;
@@ -263,11 +407,13 @@ color: rgb(103, 102, 102);
 .inputbox{ 
     position:relative;
     width:250px;
+    
 
 }
 
 .inputbox input{
     width: 100%;
+    height:7vh;
     padding:10px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
