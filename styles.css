@@ -105,6 +105,9 @@ color: rgb(103, 102, 102);
 }
 
 @media screen and (max-width: 900px) {
+    .form-container{
+        width:100vw !important;
+    }
     .divide{
         position: relative;
     }
