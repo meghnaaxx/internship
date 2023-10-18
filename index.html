@@ -29,14 +29,15 @@
             <div class="page" id="page 0">
                 <div class="divide">
                 <div class="left-child">
-                    <h1><br>Which type of property <br> are you looking for? * </br> </p></h1>
-                <h4> *Required question </h4>
+                    <div class="heading">
+                        <h1 class="line1">Which type of property are <br> you looking for? *</h1>
+                        <div class="line3">*Required question</div>
+                    </div>
             </div>
             <div class="right-child">
                 <div class="input">
                    <input type="text" class="House-input" placeholder="HDB" readonly>
                    <input type="text" class="House-input" placeholder="Condo" readonly>
-                
             </div>
                 <button type="button" onclick="nextPage()"><b>Next</b></button>
             </div>
@@ -46,9 +47,10 @@
             <div class="page" id="page 1">
                 <div class="divide">
                 <div class="left-child">
-                    <h1>Town(s) you want to <br> move to:*</h1>
-                <h4>You may select up to 3 option <br>
-                    *Required question </h4>
+                    <div class="heading">
+                        <h1 class="line1">Town(s) you want to<br>move to: *</h1>
+                        <div class="line3">You may select up to 3 option <br>*Required question</div>
+                    </div>
                     <button type="button" onclick="prevPage()"><b> Previous </b></button>
                 </div>
                 <div class="right-child">
@@ -74,9 +76,11 @@
             <div class="page" id="page 2">
                 <div class="divide">
                 <div class="left-child">
-                    <h1> What property type(s) <br> are you considering? * </h1>
-                <h4>   You may select more than 1 option
-                       *Required question</h4>
+                    <div class="heading">
+                        <h1 class="line1">What property type(s)<br> are you considering? *</h1>
+                        <div class="line3">You may select more than 1 option<br>*Required question</div>
+                    </div>
+                    
                        <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
                     <div class="right-child">
@@ -101,8 +105,11 @@
              <div class="page" id="page 3">
                 <div class="divide">
                     <div class="left-child">
-                <h1>Which rental type are <br> you looking for? *</h1>
-                <h4>*Required question</h4>
+                        <div class="heading">
+                            <h1 class="line1">Which rental type are <br>you looking for? *</h1>
+                            <div class="line3">*Required question</div>
+                        </div>
+                        
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
             </div>
             <div class="right-child">
@@ -119,17 +126,23 @@
             <div class="page" id= "page 4">
                 <div class="divide">
                     <div class="left-child">
-                <h1>Please specify the number <br> of rooms required:*</h1>
-                <h4>*Required question</h4>
+                        
+                        <div class="heading">
+                            <h1 class="line1">Please specify the number  <br>of rooms required:*</h1>
+                            <div class="line3">*Required question</div>
+                        </div>
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
                     <div class="right-child">
+                        <div class="input">
                         <input type="text" class="room-input" placeholder="1 Room" readonly>
                         <input type="text" class="room-input" placeholder="2 Room" readonly> 
                         <input type="text" class="room-input" placeholder="3 Room" readonly>
                         <input type="text" class="room-input" placeholder="4+ Room" readonly>
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
+                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    
+                </div>
                     </div>
             </div>
 
@@ -137,15 +150,20 @@
             <div class="page" id= "page 5">
                 <div class="divide">
                     <div class="left-child">
-                <h1>How long do you plan to <br> rent the place?*</h1>
-                <h4>*Required question</h4>
+                        
+                        <div class="heading">
+                            <h1 class="line1">How long do you plan to <br>rent the place?*</h1>
+                            <div class="line3">*Required question</div>
+                        </div>
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
                     <div class="right-child">
+                        <div class="input">
                         <input type="text" class="year-input" placeholder="6 Months" readonly>
                         <input type="text" class="year-input" placeholder="1 Year" readonly> 
                         <input type="text" class="year-input" placeholder="1-2 Years" readonly>
                         <input type="text" class="year-input" placeholder="2+ Years" readonly>
+                    </div>
 
                  <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
@@ -155,12 +173,17 @@
             <div class="page" id= "page 6">
                <div class="divide">
                   <div class="left-child">
-                <h1>What is your total budget <br> per month?*</h1>
-                <h4>*Required question</h4>
+                    
+                    <div class="heading">
+                        <h1 class="line1">What is your total budget <br>per month?*</h1>
+                        <div class="line3">*Required question</div>
+                    </div>
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
                   </div>
               <div class="right-child">
+                <div class="input">
                 <input type="text" class="inputmoney" placeholder="₹">
+            </div>
                     <button type="button" onclick="nextPage()"><b>Next</b></button>
               </div>
                </div>  
@@ -168,18 +191,22 @@
 
             <div class="page" id= "page 7"> 
                 <div class="divide">
-                    <div class="left-child">          
-                <h1>When do you wish <br> to move in?*</h1>
-                <h4>*Required question</h4>
+                    <div class="left-child">
+                        
+                    <div class="heading">
+                        <h1 class="line1">When do you wish <br>to move in?*</h1>
+                        <div class="line3">*Required question</div>
+                    </div>          
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
                   <div class="right-child">
+                    <div class="input">
                     <input type="text" class="time-input" placeholder="As soon as possible" readonly>
                     <input type="text" class="time-input" placeholder="Within the next 3 months" readonly>
                     <input type="text" class="time-input" placeholder="Within the next 6 months" readonly>
                     <input type="text" class="time-input" placeholder="Between 6-12 months" readonly>
                     <input type="text" class="time-input" placeholder="I've no specific timeline" readonly>
-                
+                </div>
                     <button type="button" onclick="nextPage()"><b>Next</b></button>
                       </div>
                     </div>
@@ -188,13 +215,17 @@
             <div class="page" id= "page 8">
                   <div class="divide">
                     <div class="left-child">
-                <h1>Please indicate if you <br> have  any other requirements <br> below:</h1>
-                <h4>Optional Question</h4>
+                        <div class="heading">
+                            <h1 class="line1">Please indicate if you  <br>have  any other requirements<br> below: </h1>
+                            <div class="line3">*Required question</div>
+                        </div>          
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
                    </div>
                 <div class="right-child">
+                    <div class="input">
                 <input type="text" class="inputrqrmnt" placeholder="Requirements"> 
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+            </div>    
+                <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
                   </div>
             </div>
@@ -202,17 +233,21 @@
             <div class="page" id= "page 9">
                  <div class="divide">
                     <div class="left-child">
-                <h1>Number of occupants <br> renting the place,<br> including yourself:*</h1>
-                <h4> *Required Question</h4>
+                        <div class="heading">
+                            <h1 class="line1">Number of occupants   <br>renting the place,<br> including yourself:* </h1>
+                            <div class="line3">*Required question</div>
+                        </div>          
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
                 </div>
                   <div class="right-child">
+                    <div class="input">
                       <input type="text" class="occupant-input" placeholder="1" readonly>
                         <input type="text" class="occupant-input" placeholder="2" readonly>
                         <input type="text" class="occupant-input" placeholder="3" readonly>
                         <input type="text" class="occupant-input" placeholder="4" readonly>
                         <input type="text" class="occupant-input" placeholder="5+" readonly>
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    </div>
+                        <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
                     </div>
             </div>
@@ -220,16 +255,19 @@
             <div class="page" id= "page 10">
                 <div class="divide">
                     <div class="left-child">
-                <h1>Gender of occupant(s):*</h1>
-                <h4> *Required Question</h4>
+                        <div class="heading">
+                            <h1 class="line1">Gender of occupant(s):* </h1>
+                            <div class="line3">*Required question</div>
+                        </div>          
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
                     <div class="right-child">
+                        <div class="input">
                         <input type="text" class="gender-input" placeholder="Male" readonly>
                         <input type="text" class="gender-input" placeholder="Female" readonly>
                         <input type="text" class="gender-input" placeholder="Mix of both genders" readonly>
                         <input type="text" class="gender-input" placeholder="Others" readonly>
-
+</div>
                 <button type="button" onclick="nextPage()"><b>Next</b></button>
                  </div>
                 </div>
@@ -238,13 +276,16 @@
 
             <div class="page" id= "page 11"> 
                 <div class="divide">
-                    <div class="left-child">>
-                <h1>Please indicate the <br> nationality of occupant(s)?*</h1>
-                <h4>You may select up to 6 options 
-                    *Required question</h4>
+                    <div class="left-child">
+                        <div class="heading">
+                            <h1 class="line1">Please indicate the <br> nationality of occupant(s)?* </h1>
+                            <div class="line3">You may select up to 6 options 
+                                <br>*Required question</div>
+                        </div>      
                     <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
                    <div class="right-child">
+                    <div class="input">
                     <div class="dropdown">  
                         <input type="text" class="textbox" placeholder= "Type or Select an Option">                 
                        <div class="options show">
@@ -256,6 +297,7 @@
                          <div onclick="show('afghanistan')">afghanistan</div>
                       </div>
                    </div>
+                </div>
                     <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
                    </div>   
@@ -264,13 +306,16 @@
             <div class="page" id= "page 12">
                 <div class="divide">
                     <div class="left-child">
-                <h1>Which type of work pass <br> do you hold?*</h1>
-                <h4>You may select more than 1 option
-                    *Required question</h4>
+                        <div class="heading">
+                            <h1 class="line1">Which type of work pass <br> do you hold?*</h1>
+                            <div class="line3">You may select more than 1 option
+                                <br>*Required question</div>
+                        </div>      
                     <button type="button" onclick="prevPage()"><b> Previous </b></button>
                         </div>
 
                         <div class="right-child">
+                            <div class="input">
                     <input type="checkbox" id="pass1" name="propertyType1" value="Employment Pass">
                     <label for="pass1">Employment Pass</label>
                     <input type="checkbox" id="pass2" name="propertyType2" value="Student Pass">
@@ -281,7 +326,7 @@
                     <label for="pass4">Dependent Pass</label>
                     <input type="checkbox" id="pass5" name="propertyType5" value="None of the Above">
                     <label for="pass5">None of the Above</label>
-                        
+                </div>
                         <button type="button" onclick="nextPage()"><b>Next</b></button>
                         </div>
                         </div>
@@ -293,12 +338,15 @@
              
                 <div class="divide">
                     <div class="left-child">
-                <h1><p>Just one step away to get your <br> preferences matched!</p></h1>
-                <h4>Drop us your contact details and we will keep you <br> updated via Whatsapp on any listings<br> that match your preferences!</h4>
+                        <div class="heading">
+                            <h1 class="line1">Just one step away to get your <br> preferences matched!</h1>
+                            <div class="line3">Drop us your contact details and we will keep you <br> updated via Whatsapp on any listings<br> that match your preferences!</div>
+                        </div>      
                 <button type="button" onclick="prevPage()"><b> Previous </b></button>
                     </div>
                     
                 <div class="right-child">
+                    <div class="input">
 
                     <div class="container-input">  
                          <div class="inputbox">
@@ -313,8 +361,10 @@
                         <input type="text" recquired="recquired">
                          <span>Phone No.</span>
                     </div>
-                       <button type="submit"><b>Submit</b></button>
+                </div>
+                      
                     </div>
+                    <button type="submit"><b>Submit</b></button>
                 </div> 
               </div>   
             </div>
