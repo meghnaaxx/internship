@@ -138,12 +138,12 @@ color: rgb(103, 102, 102);
     .left-child>button{
         left: 0% !important;
         bottom: 4% !important;
-        width: 21vw !important;
+        width: 30vw !important;
     }
     .right-child>button{
         right: 10% !important;
         bottom: -20% !important;
-        width: 15vw !important;
+        width: 23vw !important;
     }
     
 
