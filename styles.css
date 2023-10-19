@@ -102,8 +102,8 @@ color: rgb(103, 102, 102);
 }
 
 .custom-checkbox label {
-    width: 15px;
-    height: 15px;
+    width: 11px;
+    height: 11px;
     padding:12px;
     border: 1px solid rgb(255, 89, 0);
     border-radius: 4px;
@@ -507,8 +507,8 @@ flex-direction: column;
 
 .inputbox input{
     width: 100%;
-    height:6.5vh;
-    padding:10px;
+    height:6 vh;
+    padding:8px;
     border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
