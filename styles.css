@@ -217,10 +217,10 @@ flex-direction: column;
 
 .House-input {
     
-    width: 100%;
-    height:9.5vh;
+    width: 105%;
+    height:10.5vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -238,10 +238,10 @@ flex-direction: column;
 
 
 .rental-input{
-    width: 100%;
-    height:9.5vh;
+    width: 105%;
+    height:9vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -258,9 +258,9 @@ flex-direction: column;
 
 .room-input{
     width: 100%;
-    height:8.5vh;
+    height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -276,9 +276,9 @@ flex-direction: column;
 
 .year-input{
     width: 100%;
-    height:8.5vh;
+    height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -295,9 +295,9 @@ flex-direction: column;
 
 .gender-input{
     width: 100%;
-    height:8.5vh;
+    height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -313,9 +313,9 @@ flex-direction: column;
  
 .occupant-input{
     width: 100%;
-    height:8.5vh;
+    height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -331,9 +331,9 @@ flex-direction: column;
 
 .time-input{
     width: 100%;
-    height:8.5vh;
+    height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -367,7 +367,7 @@ flex-direction: column;
  position:absolute;
  width:7px;
  height: 7px;
- border: 2px solid black;
+ border: 2px solid rgb(82, 81, 81);
  right:10px;
  top:20px;
  z-index:10000;
@@ -457,11 +457,36 @@ flex-direction: column;
 
 }
 
+
+
+.checkbox-inp > label{
+display: flex;
+flex-direction: column;
+align-items: right;
+font-size:17px;
+width: 100%;
+height:9vh;
+padding: 25px;
+left:6px;
+bottom:7px;
+border: 1px solid rgba(173, 173, 173, 0.863);
+border-radius:5px;
+color:#3c3b3be1;
+transform: translateX(10px) translateY(-7px);
+box-sizing: border-box;
+}
+
+.checkbox-inp > input{
+left: 18px;
+top:34px;
+position: relative;
+}
+
 .inputbox input{
     width: 100%;
-    height:5vh;
-    padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    height:5.5vh;
+    padding:8px;
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1em;
@@ -509,9 +534,9 @@ border-right: 0.5px solid #f35023;
 
 .inputrqrmnt{
     width: 100%;
-    height:8.5vh;
+    height:9vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1em;
@@ -524,9 +549,9 @@ border-right: 0.5px solid #f35023;
 
 .inputmoney{
     width: 100%;
-    height:8.5vh;
+    height:9vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(173, 173, 173, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1em;
