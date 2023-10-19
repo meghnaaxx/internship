@@ -102,9 +102,10 @@ color: rgb(103, 102, 102);
 }
 
 .custom-checkbox label {
-    width: 12px;
-    height: 12px;
-    border: 2px solid orange;
+    width: 15px;
+    height: 15px;
+    padding:12px;
+    border: 1px solid rgb(255, 89, 0);
     border-radius: 4px;
     margin-right: 10px;
     cursor: pointer;
@@ -113,7 +114,7 @@ color: rgb(103, 102, 102);
 
 .custom-checkbox input[type="checkbox"]:checked + label::before {
     content: '\2713';
-    font-size: 12px;
+    font-size: 19.5px;
     color: white;
     position: absolute;
     top: 50%;
@@ -122,7 +123,7 @@ color: rgb(103, 102, 102);
 }
 
 .custom-checkbox input[type="checkbox"]:checked + label {
-    background-color: orange;
+    background-color: rgb(255, 98, 0);
 }
 
 .custom-checkbox span {
@@ -262,9 +263,9 @@ flex-direction: column;
 .House-input {
     
     width: 100%;
-    height:11vh;
+    height:10.5vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -286,9 +287,9 @@ flex-direction: column;
 
 .rental-input{
     width: 100%;
-    height:11vh;
+    height:9vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -304,10 +305,10 @@ flex-direction: column;
 }
 
 .room-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -322,10 +323,10 @@ flex-direction: column;
 }
 
 .year-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -341,10 +342,10 @@ flex-direction: column;
 }
 
 .gender-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -359,10 +360,10 @@ flex-direction: column;
 }
  
 .occupant-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -377,10 +378,10 @@ flex-direction: column;
 }
 
 .time-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -414,7 +415,7 @@ flex-direction: column;
  position:absolute;
  width:7px;
  height: 7px;
- border: 2px solid black;
+ border: 2px solid rgb(71, 70, 70);
  right:10px;
  top:20px;
  z-index:10000;
@@ -441,7 +442,7 @@ flex-direction: column;
     border-radius: 5px;
     padding: 4px 10px;
     outline-color:  #f65427;
-    box-shadow:0 5px 20px rgba(184, 181, 181, 0.11);
+    box-shadow:0 5px 20px rgba(184, 181, 181, 0.566);
 
 }
 
@@ -555,10 +556,10 @@ border-right: 1px solid #f35023;
 }
 
 .inputrqrmnt{
-    width: 32%;
-    height:8.5vh;
+    width: 100%;
+    height:7.5vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1em;
@@ -570,10 +571,10 @@ border-right: 1px solid #f35023;
 }
 
 .inputmoney{
-    width: 32%;
-    height:8.5vh;
+    width: 100%;
+    height:7.5vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(124, 122, 122, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1em;
