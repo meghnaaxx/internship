@@ -239,7 +239,7 @@ flex-direction: column;
 
 .rental-input{
     width: 100%;
-    height:11vh;
+    height:9.5vh;
     padding:10px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
@@ -258,7 +258,7 @@ flex-direction: column;
 
 .room-input{
     width: 100%;
-    height:9vh;
+    height:8.5vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
@@ -276,7 +276,7 @@ flex-direction: column;
 
 .year-input{
     width: 100%;
-    height:9vh;
+    height:8.5vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
@@ -295,7 +295,7 @@ flex-direction: column;
 
 .gender-input{
     width: 100%;
-    height:9vh;
+    height:8.5vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
@@ -313,7 +313,7 @@ flex-direction: column;
  
 .occupant-input{
     width: 100%;
-    height:9vh;
+    height:8.5vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
@@ -331,7 +331,7 @@ flex-direction: column;
 
 .time-input{
     width: 100%;
-    height:9vh;
+    height:8.5vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
