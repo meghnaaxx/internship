@@ -89,13 +89,13 @@ color: rgb(103, 102, 102);
 
 .left-child>button {
     position: absolute;
-    bottom: 30%; /* Adjust the distance from the bottom */
+    bottom: 20%; /* Adjust the distance from the bottom */
     left: 10%; /* Adjust the distance from the left */
 }
 
 .right-child>button{
     position: absolute;
-    bottom: 30%; /* Adjust the distance from the bottom */
+    bottom: 20%; /* Adjust the distance from the bottom */
     right: 15%; /* Adjust the distance from the left */
 }
 .left-child>.heading{
@@ -217,8 +217,8 @@ flex-direction: column;
 
 .House-input {
     
-    width: 100%;
-    height:11vh;
+    width: 110%;
+    height:10vh;
     padding:10px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
@@ -238,7 +238,7 @@ flex-direction: column;
 
 
 .rental-input{
-    width: 100%;
+    width: 110%;
     height:11vh;
     padding:10px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -257,7 +257,7 @@ flex-direction: column;
 }
 
 .room-input{
-    width: 65%;
+    width: 110%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -275,7 +275,7 @@ flex-direction: column;
 }
 
 .year-input{
-    width: 65%;
+    width: 110%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -294,7 +294,7 @@ flex-direction: column;
 }
 
 .gender-input{
-    width: 65%;
+    width: 110%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -312,7 +312,7 @@ flex-direction: column;
 }
  
 .occupant-input{
-    width: 65%;
+    width: 110%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -330,7 +330,7 @@ flex-direction: column;
 }
 
 .time-input{
-    width: 65%;
+    width: 110%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -459,7 +459,7 @@ flex-direction: column;
 
 .inputbox input{
     width: 100%;
-    height:7vh;
+    height:5vh;
     padding:10px;
     border: 2px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
@@ -485,10 +485,10 @@ flex-direction: column;
 color:#3c3b3be1;
 transform: translateX(10px) translateY(-7px);
 font-size: 1em;
-padding:0 10px;
+padding:0 9px;
 background-color: white;
-border-left: 1px solid #f35023;
-border-right: 1px solid #f35023;
+border-left: 0.5px solid #f35023;
+border-right: 0.5px solid #f35023;
 }
 
 
