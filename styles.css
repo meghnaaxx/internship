@@ -134,13 +134,13 @@ color: rgb(103, 102, 102);
 
 .left-child>button {
     position: absolute;
-    bottom: 30%; /* Adjust the distance from the bottom */
+    bottom: 20%; /* Adjust the distance from the bottom */
     left: 10%; /* Adjust the distance from the left */
 }
 
 .right-child>button{
     position: absolute;
-    bottom: 30%; /* Adjust the distance from the bottom */
+    bottom: 20%; /* Adjust the distance from the bottom */
     right: 15%; /* Adjust the distance from the left */
 }
 .left-child>.heading{
