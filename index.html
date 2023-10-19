@@ -16,12 +16,8 @@
         <div class="icon-container">
             <i class="fa-solid fa-house" style="color: #ff6600;"></i>
         </div>
-
         <div class="text-container">
             <p>Tell us about your dream home</p>
-        </div>
-        <div class="cross-bar">
-            <i class="fa-light fa-circle-xmark" style="color: #a6a6a6;"></i>
         </div>
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
@@ -89,22 +85,42 @@
                     </div>
                     <div class="right-child">
                     <div class="input">
-                        <div class="checkbox-inp">
-                          <input type="checkbox" id="house1" name="Type1" value="Condominium">
-                           <label for="house">Condominium</label>
-                           <input type="checkbox" id="house2" name="Type2" value="Apartment">
-                           <label for="house">Apartment</label>
-                           <input type="checkbox"  id="house3" name="Type3" value="Executive Condominium">
-                           <label for="house">Executive Condominium</label>
-                           <input type="checkbox" id="house4" name="Type4" value="Walk-up">
-                           <label for="house">Walk-up</label>
-                           <input type="checkbox" id="house5" name="Type5" value="Cluster">
-                           <label for="house">Cluster</label>
-                    </div>
+                        <div class="checkbox-group">
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="house1" name="Type1" value="Condominium">
+                                <label for="house1"></label>
+                                <span>Condominium</span>
+                            </div>
+                        
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="house2" name="Type2" value="Apartment">
+                                <label for="house2"></label>
+                                <span>Apartment</span>
+                            </div>
+                        
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="house3" name="Type3" value="Executive Condominium">
+                                <label for="house3"></label>
+                                <span>Executive Condominium</span>
+                            </div>
+                        
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="house4" name="Type4" value="Walk-up">
+                                <label for="house4"></label>
+                                <span>Walk-up</span>
+                            </div>
+                        
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="house5" name="Type5" value="Cluster">
+                                <label for="house5"></label>
+                                <span>Cluster</span>
+                            </div>
+                        </div>
+                        
+                        
                     </div>
                         <button type="button" onclick="nextPage()"><b>Next</b></button>
-                      
-                    </div>
+                        </div>
             </div>
         </div>
 
@@ -323,18 +339,38 @@
 
                         <div class="right-child">
                             <div class="input">
-                                <div class="checkbox-inp">
-                                   <input type="checkbox" id="pass1" name="propertyType1" value="Employment Pass">
-                                   <label for="house">Employment Pass</label>
-                                   <input type="checkbox" id="pass2" name="propertyType2" value="Student Pass">
-                                   <label for="house">Student Pass</label>
-                                   <input type="checkbox" id="pass3" name="propertyType3" value="Work Permit Holder">
-                                   <label for="house">Work Permit Holder</label>
-                                   <input type="checkbox" id="pass4" name="propertyType4" value="Dependent Pass">
-                                   <label for="house">Dependent Pass</label>
-                                   <input type="checkbox" id="pass5" name="propertyType5" value="None of the Above">
-                                  <label for="house">None of the Above</label>
-                             </div>
+                                <div class="checkbox-group">
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="pass1" name="propertyType1" value="Employment Pass">
+                                        <label for="pass1"></label>
+                                        <span>Employment Pass</span>
+                                    </div>
+                                
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="pass2" name="propertyType2" value="Student Pass">
+                                        <label for="pass2"></label>
+                                        <span>Student Pass</span>
+                                    </div>
+                                
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="pass3" name="propertyType3" value="Work Permit Holder">
+                                        <label for="pass3"></label>
+                                        <span>Work Permit Holder</span>
+                                    </div>
+                                
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="pass4" name="propertyType4" value="Dependent Pass">
+                                        <label for="pass4"></label>
+                                        <span>Dependent Pass</span>
+                                    </div>
+                                
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="pass5" name="propertyType5" value="None of the Above">
+                                        <label for="pass5"></label>
+                                        <span>None of the Above</span>
+                                    </div>
+                                </div>
+                                
                 </div>
                         <button type="button" onclick="nextPage()"><b>Next</b></button>
                         </div>
@@ -361,7 +397,6 @@
                          <div class="inputbox">
                             <input type="text" recquired="recquired">
                             <span>Name</span>
-            
                      </div>
                     <div class="inputbox">   
                           <input type="text"  recquired="recquired">
