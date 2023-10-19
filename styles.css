@@ -477,6 +477,7 @@ box-sizing: border-box;
 }
 
 .checkbox-inp > input{
+background-color: #f65427;
 left: 18px;
 top:34px;
 position: relative;
