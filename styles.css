@@ -56,9 +56,9 @@ color: rgb(103, 102, 102);
 
 .cross-icon {
     position: absolute;
-    right: 20px; /* Adjust the right margin as needed */
-    font-size: 20px; /* Adjust the font size as needed */
-    color: red; /* Set the desired color for the cross icon */
+    right: 27px; /* Adjust the right margin as needed */
+    font-size: 25px; /* Adjust the font size as needed */
+    color: rgb(77, 76, 76); /* Set the desired color for the cross icon */
     top: 50%; /* Center the icon vertically */
     transform: translateY(-45%); /* Adjust vertical position */
 }
