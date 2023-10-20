@@ -386,7 +386,7 @@ flex-direction: column;
 }
 
 .time-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
