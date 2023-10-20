@@ -36,10 +36,11 @@
             </div>
             <div class="right-child">
                 <div class="input">
-                   <input type="text" class="House-input" placeholder="HDB" readonly>
-                   <input type="text" class="House-input" placeholder="Condo" readonly>
+                   <input type="text" class="House-input" placeholder="HDB" readonly data-question-id="0">
+                   <input type="text" class="House-input" placeholder="Condo" readonly data-question-id="1">
             </div>
                 <button type="button" onclick="nextPage()"><b>Next</b></button>
+                <input type="hidden" id="selectedOption">
             </div>
             </div>
              
@@ -56,7 +57,7 @@
                 <div class="right-child">
                     <div class="input">
                     <div class="dropdown">  
-                        <input type="text" class="textbox" placeholder="Type or Select an Option">                 
+                        <input type="text" class="textbox tinp" placeholder="Type or Select an Option">                 
                        <div class="options show">
                          <div onclick="show('delhi')">delhi</div>
                          <div onclick="show('karnataka')">karnataka</div>
@@ -224,7 +225,6 @@
                     </div>
                   <div class="right-child">
                     <div class="input">
-                    <input type="text" class="time-input" placeholder="As soon as possible" readonly>
                     <input type="text" class="time-input" placeholder="Within the next 3 months" readonly>
                     <input type="text" class="time-input" placeholder="Within the next 6 months" readonly>
                     <input type="text" class="time-input" placeholder="Between 6-12 months" readonly>
@@ -267,8 +267,7 @@
                       <input type="text" class="occupant-input" placeholder="1" readonly>
                         <input type="text" class="occupant-input" placeholder="2" readonly>
                         <input type="text" class="occupant-input" placeholder="3" readonly>
-                        <input type="text" class="occupant-input" placeholder="4" readonly>
-                        <input type="text" class="occupant-input" placeholder="5+" readonly>
+                        <input type="text" class="occupant-input" placeholder="4+" readonly>
                     </div>
                         <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
@@ -417,9 +416,7 @@
     </div>
 
     <script> 
-       function show(anything){
-    document.querySelector('.textbox').value= anything;
-}
+
  
 let dropdown= document.querySelector('.dropdown');
 let options= document.querySelector('.options');
