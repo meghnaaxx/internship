@@ -182,9 +182,11 @@ color: rgb(103, 102, 102);
     }
     .left-child>.heading>.line1{
         font-size: 30px;
+        color:rgb(59, 58, 58)
     }
     .left-child>.heading>.line3{
-        font-size: 14px;
+        font-size: 13px;
+        color: rgb(98, 97, 97);
     }
     .right-child>.input{
         top: 30% !important;
