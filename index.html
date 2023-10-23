@@ -36,9 +36,7 @@
             </div>
             <div class="right-child">
                 <div class="input">
-                   <i class="fa-light fa-building-user" style="color: #ea4e0b;"></i>
                    <input type="text" class="House-input" placeholder="HDB" readonly data-question-id="0">
-                   <i class="fa-light fa-city" style="color: #e74008;"></i>
                    <input type="text" class="House-input" placeholder="Condo" readonly data-question-id="1">
             </div>
                 <button type="button" onclick="nextPage()"><b>Next</b></button>
@@ -310,9 +308,9 @@
                     </div>
                    <div class="right-child">
                     <div class="input">
-                    <div class="dropdown">  
-                        <input type="text" class="textbox" placeholder= "Type or Select an Option">                 
-                       <div class="options show">
+                    <div class="dropdown b">  
+                        <input type="text" class="textbox tinp" placeholder= "Type or Select an Option">                 
+                       <div class="show options o">
                          <div onclick="show('delhi')">delhi</div>
                          <div onclick="show('karnataka')">karnataka</div>
                          <div onclick="show('bangalore')">bangalore</div>
@@ -322,6 +320,7 @@
                       </div>
                    </div>
                 </div>
+
                     <button type="button" onclick="nextPage()"><b>Next</b></button>
                     </div>
                    </div>   
@@ -419,12 +418,19 @@
 
     <script> 
 
- 
+
 let dropdown= document.querySelector('.dropdown');
 let options= document.querySelector('.options');
     dropdown.onclick= function(){
         dropdown.classList.toggle('active');
         options.classList.toggle('show');
+    }
+    
+let drop= document.querySelector('.b');
+let op= document.querySelector('.o');
+    drop.onclick= function(){
+        drop.classList.toggle('active');
+        op.classList.toggle('show');
     }
     </script>
 
