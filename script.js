@@ -1,6 +1,10 @@
 let currentPage = 0;
 const totalQuestions = 14; 
 var propertyType = "";
+var apartmentType =[];
+var rentalType ="";
+var roomNumber = "";
+var yearInput = "";
 function move() {
     var elem = document.getElementById("myBar");
     var width = (currentPage - 1) * (100 / totalQuestions); // Calculate the progress based on the current question
@@ -39,25 +43,50 @@ function nextPage() {
         move();
         showPage(currentPage);
     }
-    else if(currentPage === 1){
-        currentPage++;
-        move();
-        showPage(currentPage);
+    else if(currentPage === 2){
+        apartmentType.length = 0;
+        const checkboxes = document.querySelectorAll('.custom-checkbox input[type="checkbox"]');
+        console.log(checkboxes);
+
+        // Iterate through checkboxes and add selected values to the array
+        checkboxes.forEach(checkbox => {
+            if (checkbox.checked) {
+                apartmentType.push(checkbox.value);
+            }
+        });
+        if(apartmentType.length>0){
+            currentPage++;
+            move();
+            showPage(currentPage);
+    
+        }
     }
-    else if(currentPage === 1){
-        currentPage++;
-        move();
-        showPage(currentPage);
+    else if(currentPage === 3){
+        var selectedOptionPage3 = document.getElementById('selectedOptionPage3').value;
+        rentalType = selectedOptionPage3;
+        if(selectedOptionPage3){
+            currentPage++;
+            move();
+            showPage(currentPage);    
+        }
     }
-    else if(currentPage === 1){
-        currentPage++;
-        move();
-        showPage(currentPage);
+    else if(currentPage === 4){
+        var selectedOptionPage4 = document.getElementById('selectedOptionPage4').value;
+        roomNumber = selectedOptionPage4;
+        if(selectedOptionPage4){
+            currentPage++;
+            move();
+            showPage(currentPage);    
+        }
     }
-    else if(currentPage === 1){
-        currentPage++;
-        move();
-        showPage(currentPage);
+    else if(currentPage === 5){
+        var selectedOptionPage5 = document.getElementById('selectedOptionPage5').value;
+        yearInput = selectedOptionPage5;
+        if(selectedOptionPage5){
+            currentPage++;
+            move();
+            showPage(currentPage);    
+        }
     }
     else if(currentPage === 1){
         currentPage++;
@@ -104,6 +133,30 @@ var inputs = document.querySelectorAll('.House-input');
         input.addEventListener('click', function() {
             // Store the selected option in the hidden input field
             document.getElementById('selectedOption').value = input.placeholder;
+        });
+    });
+
+    var inputs4 = document.querySelectorAll('.room-input');
+    inputs4.forEach(function(input) {
+        input.addEventListener('click', function() {
+            // Store the selected option in the hidden input field
+            document.getElementById('selectedOptionPage4').value = input.placeholder;
+        });
+    });
+    
+    var inputs5 = document.querySelectorAll('.year-input');
+    inputs5.forEach(function(input) {
+        input.addEventListener('click', function() {
+            // Store the selected option in the hidden input field
+            document.getElementById('selectedOptionPage5').value = input.placeholder;
+        });
+    });
+
+    var inputs3 = document.querySelectorAll('.rental-input');
+    inputs3.forEach(function(input) {
+        input.addEventListener('click', function() {
+            // Store the selected option in the hidden input field
+            document.getElementById('selectedOptionPage3').value = input.placeholder;
         });
     });
 
