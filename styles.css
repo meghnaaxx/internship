@@ -161,7 +161,7 @@ color: rgb(103, 102, 102);
 
 @media screen and (max-width: 900px) {
     .form-container{
-        width:105vw !important;
+        width:100vw !important;
     }
     .divide{
         position: relative;
@@ -185,7 +185,7 @@ color: rgb(103, 102, 102);
         color:rgb(59, 58, 58)
     }
     .left-child>.heading>.line3{
-        font-size: 13px;
+        font-size: 16px;
         color: grey;
     }
     .right-child>.input{
@@ -267,29 +267,29 @@ color: rgb(103, 102, 102);
 }
  
 #img1{
-    background-image: url("https://thumbs.dreamstime.com/b/building-office-architecture-icon-orange-vector-design-building-office-architecture-icon-well-organized-simple-vector-use-250014244.jpg");
+    background-image: url("https://cdn-icons-png.flaticon.com/512/7321/7321808.png");
     position:left;
     padding-left:40px;
     right:20px;
-    background-size:55px;
+    background-size:45px;
     background-repeat: no-repeat;
 
 }
 
 #img2{
-    background-image: url("https://thumbs.dreamstime.com/b/building-office-architecture-icon-orange-vector-design-building-office-architecture-icon-well-organized-simple-vector-use-250014244.jpg");
+    background-image: url("https://cdn-icons-png.flaticon.com/512/7321/7321808.png");
     position:left;
     padding-left:40px;
     right:20px;
-    background-size:55px;
+    background-size:45px;
     background-repeat: no-repeat; }
 
 
     #img3{
-        background-image: url("https://thumbs.dreamstime.com/b/building-office-architecture-icon-orange-vector-design-building-office-architecture-icon-well-organized-simple-vector-use-250014244.jpg");
+        background-image: url("https://cdn-icons-png.flaticon.com/512/7321/7321724.png");
         position:left;
         right:20px;
-        background-size:55px;
+        background-size:45px;
         background-repeat: no-repeat; }
     
 
