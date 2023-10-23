@@ -159,7 +159,7 @@ color: rgb(103, 102, 102);
 
 @media screen and (max-width: 900px) {
     .form-container{
-        width:100vw !important;
+        width:105vw !important;
     }
     .divide{
         position: relative;
@@ -179,10 +179,10 @@ color: rgb(103, 102, 102);
         text-align: left;
     }
     .left-child>.heading>.line1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .left-child>.heading>.line3{
-        font-size: 16px;
+        font-size: 14px;
     }
     .right-child>.input{
         top: 30% !important;
@@ -313,7 +313,7 @@ flex-direction: column;
 }
 
 .room-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -331,7 +331,7 @@ flex-direction: column;
 }
 
 .year-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -350,7 +350,7 @@ flex-direction: column;
 }
 
 .gender-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -368,7 +368,7 @@ flex-direction: column;
 }
  
 .occupant-input{
-    width: 65%;
+    width: 100%;
     height:9vh;
     padding:8px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -564,7 +564,7 @@ border-right: 1px solid #f35023;
 }
 
 .inputrqrmnt{
-    width: 32%;
+    width: 100%;
     height:8.5vh;
     padding:10px;
     border: 2px solid rgba(57, 56, 56, 0.863);
@@ -579,7 +579,7 @@ border-right: 1px solid #f35023;
 }
 
 .inputmoney{
-    width: 32%;
+    width: 100%;
     height:8.5vh;
     padding:10px;
     border: 2px solid rgba(57, 56, 56, 0.863);
