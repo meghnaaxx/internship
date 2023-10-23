@@ -130,6 +130,8 @@ color: rgb(103, 102, 102);
     transform: translate(-50%, -50%);
 }
 
+
+
 .custom-checkbox input[type="checkbox"]:checked + label {
     background-color: orange;
 }
