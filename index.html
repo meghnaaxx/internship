@@ -141,10 +141,11 @@
             </div>
             <div class="right-child">
                 <div class="input">
-                <input type="text" class="rental-input" placeholder="Room Rental" readonly>
-                <input type="text" class="rental-input" placeholder="Whole Apartment Rental" readonly>
+                <input type="text" class="rental-input" placeholder="Room Rental" readonly data-question-id="4">
+                <input type="text" class="rental-input" placeholder="Whole Apartment Rental" readonly data-question-id="5">
                 </div>
                     <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    <input type="hidden" id="selectedOptionPage3">
                     </div>
              </div>
              </div>
@@ -168,6 +169,7 @@
                         <input type="text" class="room-input" placeholder="4+ Room" readonly>
                     </div>
                     <button type="button" onclick="nextPage()"><b>Next</b></button>
+                    <input type="hidden" id="selectedOptionPage4">
                     
                 </div>
                     </div>
@@ -193,6 +195,7 @@
                     </div>
 
                  <button type="button" onclick="nextPage()"><b>Next</b></button>
+                 <input type="hidden" id="selectedOptionPage5">
                     </div>
                 </div>
             </div>
