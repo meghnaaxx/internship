@@ -42,7 +42,7 @@ color: rgb(103, 102, 102);
     align-items: center;
 }
 .icon-container {
-    font-size: 31px;
+    font-size: 29px;
     margin-right: 10px; /* Add suitable margin from the left for the icon */
     margin-left: 20px;
 }
@@ -54,8 +54,8 @@ color: rgb(103, 102, 102);
 
 .cross-icon {
     position: absolute;
-    right: 27px; /* Adjust the right margin as needed */
-    font-size: 25px; /* Adjust the font size as needed */
+    right: 25px; /* Adjust the right margin as needed */
+    font-size: 23px; /* Adjust the font size as needed */
     color: rgb(77, 76, 76); /* Set the desired color for the cross icon */
     top: 50%; /* Center the icon vertically */
     transform: translateY(-45%); /* Adjust vertical position */
@@ -72,7 +72,7 @@ color: rgb(103, 102, 102);
 
 .progress-bar {
     width: 0;
-    height: 7.5px;
+    height: 7px;
     background-color: #f0760b;
     text-align: center;
     line-height: 10px;
@@ -105,9 +105,9 @@ color: rgb(103, 102, 102);
 }
 
 .custom-checkbox label {
-    width: 12px;
-    height: 12px;
-    border: 2px solid orange;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgb(255, 77, 0);
     border-radius: 4px;
     margin-right: 10px;
     cursor: pointer;
@@ -116,7 +116,7 @@ color: rgb(103, 102, 102);
 
 .custom-checkbox input[type="checkbox"]:checked + label::before {
     content: '\2713';
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     position: absolute;
     top: 50%;
@@ -127,7 +127,7 @@ color: rgb(103, 102, 102);
 
 
 .custom-checkbox input[type="checkbox"]:checked + label {
-    background-color: orange;
+    background-color: rgb(255, 64, 0);
 }
 
 .custom-checkbox span {
@@ -261,7 +261,7 @@ color: rgb(103, 102, 102);
 #img1{
     background-image: url("https://cdn-icons-png.flaticon.com/512/7321/7321808.png");
     position:left;
-    padding-left:40px;
+    padding-left:30px;
     right:20px;
     background-size:45px;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ color: rgb(103, 102, 102);
 #img2{
     background-image: url("https://cdn-icons-png.flaticon.com/512/7321/7321808.png");
     position:left;
-    padding-left:40px;
+    padding-left:30px;
     right:20px;
     background-size:45px;
     background-repeat: no-repeat; }
@@ -293,9 +293,9 @@ flex-direction: column;
 
 .House-input {   
     width: 100%;
-    height:11vh;
+    height:10vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -316,9 +316,9 @@ flex-direction: column;
 
 .rental-input{
     width: 100%;
-    height:11vh;
+    height:10vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -337,7 +337,7 @@ flex-direction: column;
     width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -355,7 +355,7 @@ flex-direction: column;
     width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -374,7 +374,7 @@ flex-direction: column;
     width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -392,7 +392,7 @@ flex-direction: column;
     width: 100%;
     height:9vh;
     padding:8px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1.1em;
@@ -538,7 +538,7 @@ flex-direction: column;
     width: 100%;
     height:7vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1em;
@@ -588,7 +588,7 @@ border-right: 1px solid #f35023;
     width: 100%;
     height:8.5vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1em;
@@ -603,7 +603,7 @@ border-right: 1px solid #f35023;
     width: 100%;
     height:8.5vh;
     padding:10px;
-    border: 2px solid rgba(57, 56, 56, 0.863);
+    border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
     outline-color: #f65427;
     font-size: 1em;
