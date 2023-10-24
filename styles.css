@@ -527,6 +527,7 @@ flex-direction: column;
     font-size: 1em;
 }
 
+
 .inputbox span{
     position: absolute;
     left:0;
@@ -564,6 +565,7 @@ border-right: 1px solid #f35023;
     align-items:center;
     color: #565656bf;
 }
+
 
 
 .mail-icon{
