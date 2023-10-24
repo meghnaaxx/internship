@@ -79,6 +79,10 @@ color: rgb(103, 102, 102);
     color: white;
 }
 
+
+
+
+
 .left-child,
 .right-child {
     width: 50%;
@@ -259,31 +263,9 @@ color: rgb(103, 102, 102);
     box-shadow: 0 0 8px ;
 }
  
-#img1{
-    background-image: url("https://cdn-icons-png.flaticon.com/512/7321/7321808.png");
-    position:left;
-    padding-left:30px;
-    right:20px;
-    background-size:45px;
-    background-repeat: no-repeat;
-
+.House-input{
+    padding-left: 60px;
 }
-
-#img2{
-    background-image: url("https://cdn-icons-png.flaticon.com/512/7321/7321808.png");
-    position:left;
-    padding-left:30px;
-    right:20px;
-    background-size:45px;
-    background-repeat: no-repeat; }
-
-
-    #img3{
-        background-image: url("https://cdn-icons-png.flaticon.com/512/7321/7321724.png");
-        position:left;
-        right:20px;
-        background-size:45px;
-        background-repeat: no-repeat; }
  
 .input{
 display: flex;
