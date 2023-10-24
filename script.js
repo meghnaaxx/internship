@@ -5,6 +5,12 @@ var apartmentType =[];
 var rentalType ="";
 var roomNumber = "";
 var yearInput = "";
+var money;
+var timeInput;
+var req;
+var numOccu;
+var gender;
+var workpassType = [];
 function move() {
     var elem = document.getElementById("myBar");
     var width = (currentPage - 1) * (100 / totalQuestions); // Calculate the progress based on the current question
@@ -88,25 +94,79 @@ function nextPage() {
             showPage(currentPage);    
         }
     }
-    else if(currentPage === 1){
+    else if(currentPage === 6){
+    var inputElement = document.querySelector('.inputmoney'); // Select the input element using its class
+    money = inputElement.value; // Get the input value and store it in the variable
+    console.log('Input Value:', money);
+    if(money){
         currentPage++;
         move();
         showPage(currentPage);
     }
-    else if(currentPage === 1){
-        currentPage++;
-        move();
-        showPage(currentPage);
     }
-    else if(currentPage === 1){
-        currentPage++;
-        move();
-        showPage(currentPage);
+    else if(currentPage === 7){
+        var selectedOptionPage7 = document.getElementById('selectedOptionPage7').value;
+        timeInput = selectedOptionPage7;
+        if(selectedOptionPage7){
+            currentPage++;
+            move();
+            showPage(currentPage);    
+        }
     }
-    else if(currentPage === 1){
-        currentPage++;
-        move();
-        showPage(currentPage);
+    else if(currentPage === 8){
+        var requirement = document.querySelector('.inputrqrmnt'); // Select the input element using its class
+        req = requirement.value; // Get the input value and store it in the variable
+        console.log('Input Value:', money);
+        if(req){
+            currentPage++;
+            move();
+            showPage(currentPage);
+        }
+    }
+    else if(currentPage === 9){
+        var selectedOptionPage9 = document.getElementById('selectedOptionPage9').value;
+        numOccu = selectedOptionPage9;
+        if(selectedOptionPage9){
+            currentPage++;
+            move();
+            showPage(currentPage);    
+        }
+    }
+    else if(currentPage === 10){
+        var selectedOptionPage10 = document.getElementById('selectedOptionPage10').value;
+        gender = selectedOptionPage10;
+        if(selectedOptionPage10){
+            currentPage++;
+            move();
+            showPage(currentPage);    
+        }
+    }
+    else if(currentPage === 11){
+        var selectedOptionPage9 = document.getElementById('selectedOptionPage9').value;
+        numOccu = selectedOptionPage9;
+        if(selectedOptionPage9){
+            currentPage++;
+            move();
+            showPage(currentPage);    
+        }
+    }
+    else if(currentPage === 12){
+        workpassType.length = 0;
+        const checkboxes = document.querySelectorAll('.special-input input[type="checkbox"]');
+        console.log(checkboxes);
+
+        // Iterate through checkboxes and add selected values to the array
+        checkboxes.forEach(checkbox => {
+            if (checkbox.checked) {
+                workpassType.push(checkbox.value);
+            }
+        });
+        if(workpassType.length>0){
+            currentPage++;
+            move();
+            showPage(currentPage);
+    
+        }
     }
     else{
         currentPage++;
@@ -157,6 +217,28 @@ var inputs = document.querySelectorAll('.House-input');
         input.addEventListener('click', function() {
             // Store the selected option in the hidden input field
             document.getElementById('selectedOptionPage3').value = input.placeholder;
+        });
+    });
+    
+    var inputs7 = document.querySelectorAll('.time-input');
+    inputs7.forEach(function(input) {
+        input.addEventListener('click', function() {
+            // Store the selected option in the hidden input field
+            document.getElementById('selectedOptionPage7').value = input.placeholder;
+        });
+    });
+    var inputs9 = document.querySelectorAll('.occupant-input');
+    inputs9.forEach(function(input) {
+        input.addEventListener('click', function() {
+            // Store the selected option in the hidden input field
+            document.getElementById('selectedOptionPage9').value = input.placeholder;
+        });
+    });
+    var inputs10 = document.querySelectorAll('.gender-input');
+    inputs10.forEach(function(input) {
+        input.addEventListener('click', function() {
+            // Store the selected option in the hidden input field
+            document.getElementById('selectedOptionPage10').value = input.placeholder;
         });
     });
 
