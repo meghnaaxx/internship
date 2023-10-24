@@ -537,7 +537,7 @@ flex-direction: column;
 
 .inputbox input{
     width: 100%;
-    height:7vh;
+    height:6vh;
     padding:10px;
     border: 1px solid rgba(57, 56, 56, 0.863);
     border-radius:5px;
@@ -568,6 +568,47 @@ background-color: white;
 border-left: 1px solid #f35023;
 border-right: 1px solid #f35023;
 }
+
+
+
+.user-icon{
+    position: absolute;
+    left:0;
+    top:0;
+    width:60px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #565656bf;
+}
+
+
+.mail-icon{
+    position: absolute;
+    left:0;
+    top:0;
+    width:60px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #565656bf;
+}
+
+.phone-icon{
+    position: absolute;
+    left:0;
+    top:0;
+    width:60px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #565656bf;
+}
+
+
 
 
 .divide{
