@@ -288,9 +288,7 @@ flex-direction: column;
     width:100%;
     height:90%;
   }
-  .new-cont:hover, .new-cont:hover .House-input {
-      
-  }
+  
   
   .new-cont>i{
     margin-left:6px;
