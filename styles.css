@@ -105,9 +105,9 @@ color: rgb(103, 102, 102);
 }
 
 .custom-checkbox label {
-    width: 16px;
-    height: 16px;
-    border: 1px solid rgb(255, 77, 0);
+    width: 17px;
+    height: 17px;
+    border: 1px solid rgb(97, 96, 95);
     border-radius: 4px;
     margin-right: 10px;
     cursor: pointer;
@@ -116,7 +116,7 @@ color: rgb(103, 102, 102);
 
 .custom-checkbox input[type="checkbox"]:checked + label::before {
     content: '\2713';
-    font-size: 13px;
+    font-size: 15px;
     color: white;
     position: absolute;
     top: 50%;
@@ -128,6 +128,7 @@ color: rgb(103, 102, 102);
 
 .custom-checkbox input[type="checkbox"]:checked + label {
     background-color: rgb(255, 64, 0);
+    border: 1px solid rgb(252, 67, 0);
 }
 
 .custom-checkbox span {
@@ -270,13 +271,13 @@ flex-direction: column;
 }
 
 .new-cont{
-    width:15vw;
+    width:18vw;
     height:10vh;
     display:flex;
     align-items:center;
-    border: 1.5px solid black;
+    border: 1px solid rgb(59, 58, 58);
     border-radius:8px;
-    margin-top: 2px;
+    margin-top: 15px;
   }
   .House-input{
     background:transparent;
@@ -286,7 +287,7 @@ flex-direction: column;
     height:90%;
   }
   .new-cont:hover, .new-cont:hover .House-input {
-      background-color: orange; 
+      
   }
   
   .new-cont>i{
@@ -297,7 +298,8 @@ flex-direction: column;
     font-size:16px
   }
   .new-cont:focus-within{
-    border: 1.5px solid orange;
+    border: 2px solid rgb(255, 55, 0);
+
   }
 
 
