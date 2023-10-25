@@ -79,10 +79,6 @@ color: rgb(103, 102, 102);
     color: white;
 }
 
-
-
-
-
 .left-child,
 .right-child {
     width: 50%;
@@ -156,6 +152,9 @@ color: rgb(103, 102, 102);
 }
 
 @media screen and (max-width: 900px) {
+    .new-cont{
+        width: 60vw !important;
+    }
     .form-container{
         width:100vw !important;
     }
@@ -263,38 +262,43 @@ color: rgb(103, 102, 102);
     box-shadow: 0 0 8px ;
 }
  
-.House-input{
-    padding-left: 60px;
-}
+
  
 .input{
 display: flex;
 flex-direction: column;
-
 }
 
-
-.House-input {   
-    width: 100%;
+.new-cont{
+    width:15vw;
     height:10vh;
-    padding:10px;
-    border: 1px solid rgba(57, 56, 56, 0.863);
-    border-radius:5px;
-    outline-color: #f65427;
-    font-size: 1.1em;
-    color:#292929e1;
-    transform: translateX(10px) translateY(-7px);
-    box-sizing: border-box;
-    margin-bottom:18px;
-}
-
-
-.House-input:hover{
-    background-color: rgba(225, 114, 23, 0.077);
-}
-.House-input:focus{
-    background-color: rgba(225, 114, 23, 0.077);
-}
+    display:flex;
+    align-items:center;
+    border: 1.5px solid black;
+    border-radius:8px;
+    margin-top: 2px;
+  }
+  .House-input{
+    background:transparent;
+    border:none;
+    outline:none;
+    width:100%;
+    height:90%;
+  }
+  .new-cont:hover, .new-cont:hover .House-input {
+      background-color: orange; 
+  }
+  
+  .new-cont>i{
+    margin-left:6px;
+    margin-right:5px;
+  }
+  .House-input::placeholder{
+    font-size:16px
+  }
+  .new-cont:focus-within{
+    border: 1.5px solid orange;
+  }
 
 
 .rental-input{
