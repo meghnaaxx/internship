@@ -186,7 +186,7 @@ color: rgb(103, 102, 102);
         color: grey;
     }
     .right-child>.input{
-        top: 30% !important;
+        top: 35% !important;
         left: 0;
     }
     .left-child>button{
