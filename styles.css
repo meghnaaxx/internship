@@ -167,6 +167,8 @@ color: rgb(103, 102, 102);
         width: 100%;
         left: 0%;
         top: 0%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     .right-child{
         height: 80%;
