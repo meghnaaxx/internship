@@ -273,9 +273,9 @@ flex-direction: column;
 
 ::placeholder {
     font-family: "YourFontName", sans-serif;
-    font-size: 14px; 
-    font-weight: bold; 
-    color: #555; 
+    font-size: 15px; 
+    font-weight: 600; 
+    color: #5e5d5d; 
   }
 
 
