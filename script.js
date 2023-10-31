@@ -96,14 +96,14 @@ function nextPage() {
         }
     }
     else if(currentPage === 5){
-    var inputElement = document.querySelector('.inputmoney'); // Select the input element using its class
-    money = inputElement.value; // Get the input value and store it in the variable
-    console.log('Input Value:', money);
-    if(money){
+    //var inputElement = document.querySelector('.inputmoney'); // Select the input element using its class
+    //money = inputElement.value; // Get the input value and store it in the variable
+    //console.log('Input Value:', money);
+    //if(money){
         currentPage++;
         move();
         showPage(currentPage);
-    }
+    //}
     }
     else if(currentPage === 6){
         var selectedOptionPage7 = document.getElementById('selectedOptionPage7').value;
