@@ -48,8 +48,9 @@ function nextPage() {
         currentPage++;
         move();
         showPage(currentPage);
+        //currentPage++;
     }
-    else if(currentPage === 2){
+    /*else if(currentPage === 2){
         apartmentType.length = 0;
         const checkboxes = document.querySelectorAll('.custom-checkbox input[type="checkbox"]');
         console.log(checkboxes);
@@ -66,8 +67,8 @@ function nextPage() {
             showPage(currentPage);
     
         }
-    }
-    else if(currentPage === 3){
+    }*/
+    else if(currentPage === 2){
         var selectedOptionPage3 = document.getElementById('selectedOptionPage3').value;
         rentalType = selectedOptionPage3;
         if(selectedOptionPage3){
@@ -76,7 +77,7 @@ function nextPage() {
             showPage(currentPage);    
         }
     }
-    else if(currentPage === 4){
+    else if(currentPage === 3){
         var selectedOptionPage4 = document.getElementById('selectedOptionPage4').value;
         roomNumber = selectedOptionPage4;
         if(selectedOptionPage4){
@@ -85,7 +86,7 @@ function nextPage() {
             showPage(currentPage);    
         }
     }
-    else if(currentPage === 5){
+    else if(currentPage === 4){
         var selectedOptionPage5 = document.getElementById('selectedOptionPage5').value;
         yearInput = selectedOptionPage5;
         if(selectedOptionPage5){
@@ -94,7 +95,7 @@ function nextPage() {
             showPage(currentPage);    
         }
     }
-    else if(currentPage === 6){
+    else if(currentPage === 5){
     var inputElement = document.querySelector('.inputmoney'); // Select the input element using its class
     money = inputElement.value; // Get the input value and store it in the variable
     console.log('Input Value:', money);
@@ -104,7 +105,7 @@ function nextPage() {
         showPage(currentPage);
     }
     }
-    else if(currentPage === 7){
+    else if(currentPage === 6){
         var selectedOptionPage7 = document.getElementById('selectedOptionPage7').value;
         timeInput = selectedOptionPage7;
         if(selectedOptionPage7){
@@ -113,7 +114,7 @@ function nextPage() {
             showPage(currentPage);    
         }
     }
-    else if(currentPage === 8){
+    else if(currentPage === 7){
         var requirement = document.querySelector('.inputrqrmnt'); // Select the input element using its class
         req = requirement.value; // Get the input value and store it in the variable
         console.log('Input Value:', money);
@@ -123,7 +124,7 @@ function nextPage() {
             showPage(currentPage);
         }
     }
-    else if(currentPage === 9){
+    else if(currentPage === 8){
         var selectedOptionPage9 = document.getElementById('selectedOptionPage9').value;
         numOccu = selectedOptionPage9;
         if(selectedOptionPage9){
@@ -132,7 +133,7 @@ function nextPage() {
             showPage(currentPage);    
         }
     }
-    else if(currentPage === 10){
+    else if(currentPage === 9){
         var selectedOptionPage10 = document.getElementById('selectedOptionPage10').value;
         gender = selectedOptionPage10;
         if(selectedOptionPage10){
@@ -141,7 +142,7 @@ function nextPage() {
             showPage(currentPage);    
         }
     }
-    else if(currentPage === 11){
+    else if(currentPage === 10){
         var selectedOptionPage9 = document.getElementById('selectedOptionPage9').value;
         numOccu = selectedOptionPage9;
         if(selectedOptionPage9){
@@ -150,7 +151,7 @@ function nextPage() {
             showPage(currentPage);    
         }
     }
-    else if(currentPage === 12){
+    else if(currentPage === 11){
         workpassType.length = 0;
         const checkboxes = document.querySelectorAll('.special-input input[type="checkbox"]');
         console.log(checkboxes);
