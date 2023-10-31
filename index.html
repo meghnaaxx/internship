@@ -168,18 +168,20 @@
                   </div>
               <div class="right-child">
                 <div class="input">
-                    <div class="dropdown c">
-                <input type="text" class="inputmoney" placeholder="₹">
-                <div class="options show">
-                    <div onclick="show('Kormangala')">Kormangala</div>
-                    <div onclick="show('HSR')">HSR</div>
-                    <div onclick="show('Marathhali')">Marathhali</div>
-                    <div onclick="show('Whitefield')">Whitefield</div>
-               </div>
-            </div>
-                    <button type="button" onclick="nextPage()"><b>Next</b></button>
-              </div>
-               </div>  
+                    <div class="dropdown d">  
+                        <input type="text" class="textbox tinp" placeholder="₹">                 
+                       <div class="options show f">
+                         <div onclick="show('Kormangala')">Kormangala</div>
+                         <div onclick="show('HSR')">HSR</div>
+                         <div onclick="show('Marathhali')">Marathhali</div>
+                         <div onclick="show('Whitefield')">Whitefield</div>
+                    </div>
+                    
+                </div>
+            </div>  
+            <button type="button" onclick="nextPage()"><b>Next</b></button>
+              
+                 
             </div>
             </div>
 
@@ -399,6 +401,12 @@ let op= document.querySelector('.o');
     drop.onclick= function(){
         drop.classList.toggle('active');
         op.classList.toggle('show');
+    }
+let dropt= document.querySelector('.d');
+let opt= document.querySelector('.f');
+    dropt.onclick= function(){
+        dropt.classList.toggle('active');
+        opt.classList.toggle('show');
     }
     </script>
 
